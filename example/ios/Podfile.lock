@@ -1,0 +1,45 @@
+PODS:
+  - Flutter (1.0.0)
+  - UMCommon (7.3.6):
+    - UMDevice
+  - UMDevice (2.2.1)
+  - umeng_common_sdk (0.0.1):
+    - Flutter
+    - UMCommon
+    - UMDevice
+  - umeng_verify_sdk (0.0.1):
+    - Flutter
+    - UMVerify
+  - UMVerify (2.4.1):
+    - UMCommon
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - umeng_common_sdk (from `.symlinks/plugins/umeng_common_sdk/ios`)
+  - umeng_verify_sdk (from `.symlinks/plugins/umeng_verify_sdk/ios`)
+
+SPEC REPOS:
+  trunk:
+    - UMCommon
+    - UMDevice
+    - UMVerify
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  umeng_common_sdk:
+    :path: ".symlinks/plugins/umeng_common_sdk/ios"
+  umeng_verify_sdk:
+    :path: ".symlinks/plugins/umeng_verify_sdk/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  UMCommon: c61df8457c275afd4f8a2fca10c7446d66220ac0
+  UMDevice: 053478c4b4d7292f31f0a275c227d3c4007a5571
+  umeng_common_sdk: a8abd7f86dfd013dbbeeae587ee143760c6582f2
+  umeng_verify_sdk: 3c133a7462dd87bd9304837c99f600e0228df772
+  UMVerify: e13565bb968b4c98375a62c4798148fa0901f67a
+
+PODFILE CHECKSUM: 9b47116dee1fdca386ec6d76c03148254cae1156
+
+COCOAPODS: 1.11.2
